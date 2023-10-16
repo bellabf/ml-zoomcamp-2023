@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  zoomcamp:
+    image: zoomcamp
+    build:
+      context: .
+      dockerfile: ./Dockerfile
